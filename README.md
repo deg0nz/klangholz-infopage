@@ -23,6 +23,7 @@ gulp dev
 - `gulp minify-css` minifies the compiled CSS file
 - `gulp minify-js` minifies the themes JS file
 - `gulp copy` copies dependencies from node_modules to the vendor directory
+- `gulp deploy` copies all needed (minimized) files to the `deploy` folder
 
 ## Copyright and License
 
