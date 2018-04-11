@@ -118,6 +118,7 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
 gulp.task('deploy', ['default'], function() {
   gulp.src([
     './**/*.min.js',
+    './**/*.min.js.map',
     '!./node_modules/**/*',
     './**/*.min.css',
     './**/fonts/*',
