@@ -106,7 +106,7 @@ var map = new ol.Map({
   }),
   view: new ol.View({
     center: [0, 0],
-    zoom: 15.3,
+    zoom: 15,
     center: ol.proj.fromLonLat([lon, lat])
   }),
   interactions: ol.interaction.defaults({mouseWheelZoom:false})
