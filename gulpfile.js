@@ -113,3 +113,17 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+// Copy all needed files to deploy folder
+gulp.task('deploy', ['default'], function() {
+  gulp.src([
+    './**/*.min.js',
+    '!./node_modules/**/*',
+    './**/*.min.css',
+    './**/fonts/*',
+    './**/img/*',
+    'index.html'
+    ])
+  .pipe(gulp.dest('./deploy'))
+ // .pipe()   // upload to server
+});
