@@ -1,7 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   position: relative;
 
@@ -55,7 +55,7 @@ a {
   &:hover {
     text-decoration: none;
 
-    color: darken($primary, 20%);
+    color: darken($primary, 30%);
   }
 }
 
@@ -197,9 +197,10 @@ a {
   padding-bottom: 150px;
 }
 
-.download-section {
+.wann-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+  text-shadow: 2px 2px #000000;
+  background: url('../img/wann-bg.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -271,6 +272,10 @@ footer {
 
     margin: 0;
   }
+}
+
+.impressum {
+  visibility: visible;
 }
 
 ::-moz-selection {
