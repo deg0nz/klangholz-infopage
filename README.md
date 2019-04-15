@@ -1,8 +1,8 @@
 # Klangholz Infopage
 
-This is the code of the infopage deployed at [https://klangholz.space](https://klangholz.space) for Sabinchenfestspiele 2018.
+This is the code of the infopage deployed at [https://klangholz.space](https://klangholz.space) for Sabinchenfestspiele 2019.
 
-This page is heavily based on [Grayscale](http://startbootstrap.com/template-overviews/grayscale/). A multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This page is heavily based on an old version of [Grayscale](http://startbootstrap.com/template-overviews/grayscale/). A multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Usage
 
